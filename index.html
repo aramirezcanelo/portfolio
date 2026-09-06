@@ -1,0 +1,755 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+
+  <meta
+    name="viewport"
+    content="width=device-width, initial-scale=1.0"
+  >
+
+  <meta
+    name="description"
+    content="Alejandro Ramírez — Desarrollo web, sistemas y comunicación digital."
+  >
+
+  <meta name="theme-color" content="#e8e6df">
+
+  <title>Alejandro Ramírez | Portfolio</title>
+
+  <link
+    rel="icon"
+    type="image/svg+xml"
+    href="icons/icon.svg"
+  >
+
+  <link
+    rel="preconnect"
+    href="https://cdnjs.cloudflare.com"
+  >
+
+  <link
+    rel="preconnect"
+    href="https://cdn.jsdelivr.net"
+  >
+
+  <link
+    rel="stylesheet"
+    href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.7.2/css/all.min.css"
+  >
+
+  <link
+    rel="stylesheet"
+    href="https://cdn.jsdelivr.net/npm/@picocss/pico@2/css/pico.min.css"
+  >
+
+  <link
+    rel="stylesheet"
+    href="style.css"
+  >
+</head>
+
+<body>
+
+  <div class="page-background">
+    <div class="noise"></div>
+    <div class="background-grid"></div>
+
+    <div class="blob blob-1"></div>
+    <div class="blob blob-2"></div>
+    <div class="blob blob-3"></div>
+
+    <div class="background-line line-1"></div>
+    <div class="background-line line-2"></div>
+
+    <div class="side-rail side-rail-left" aria-hidden="true">
+      <div class="side-rail-content">
+        <span>LINCES / SERVICIO</span>
+        <i>+</i>
+        <span>COMUNIDAD / ACCIÓN</span>
+      </div>
+    </div>
+
+    <div class="side-rail side-rail-right" aria-hidden="true">
+      <div class="side-rail-content">
+        <span>COMPARTIR / CRECER</span>
+        <i>+</i>
+        <span>HECHO CON PROPÓSITO</span>
+      </div>
+    </div>
+  </div>
+
+  <header class="site-header">
+
+    <nav class="navbar">
+
+      <a
+        href="#inicio"
+        class="logo"
+        data-scroll="inicio"
+        aria-label="Ir al inicio"
+      >
+        <span class="logo-symbol">AR</span>
+
+        <span class="logo-text">
+          Alejandro<span>.</span>
+        </span>
+      </a>
+
+      <div
+        class="nav-links"
+        id="navLinks"
+      >
+
+        <a
+          href="#inicio"
+          data-scroll="inicio"
+          class="nav-link active"
+        >
+          Inicio
+        </a>
+
+        <a
+          href="#sobre-mi"
+          data-scroll="sobre-mi"
+          class="nav-link"
+        >
+          Sobre mí
+        </a>
+
+        <a
+          href="#proyectos"
+          data-scroll="proyectos"
+          class="nav-link"
+        >
+          Proyectos
+        </a>
+
+        <a
+          href="#habilidades"
+          data-scroll="habilidades"
+          class="nav-link"
+        >
+          Habilidades
+        </a>
+
+        <a
+          href="#contacto"
+          data-scroll="contacto"
+          class="nav-link"
+        >
+          Contacto
+        </a>
+
+      </div>
+
+      <a
+        href="https://github.com/aramirezcanelo"
+        target="_blank"
+        rel="noopener noreferrer"
+        class="github-button"
+        aria-label="GitHub"
+      >
+        <i class="fa-brands fa-github"></i>
+      </a>
+
+      <button
+        class="menu-button"
+        id="menuButton"
+        type="button"
+        aria-label="Abrir menú"
+        aria-expanded="false"
+      >
+        <span></span>
+        <span></span>
+      </button>
+
+    </nav>
+
+  </header>
+
+  <main>
+
+    <section
+      class="section hero"
+      id="inicio"
+    >
+
+      <div class="section-inner hero-grid">
+
+        <div class="hero-content reveal">
+
+          <div class="eyebrow">
+            <span></span>
+            Desarrollo web · Sistemas · Comunicación
+          </div>
+
+          <h1>
+            Alejandro
+            <strong>Ramírez.</strong>
+          </h1>
+
+          <p class="hero-text">
+            Web Developer especializado en arquitectura de proyectos,
+            desarrollo de sistemas y producción de medios digitales.
+          </p>
+
+          <div class="hero-buttons">
+
+            <a
+              href="#proyectos"
+              data-scroll="proyectos"
+              class="button button-primary"
+            >
+              Ver proyectos
+              <i class="fa-solid fa-arrow-right"></i>
+            </a>
+
+            <a
+              href="#contacto"
+              data-scroll="contacto"
+              class="button button-secondary"
+            >
+              Contacto
+            </a>
+
+          </div>
+
+          <div class="hero-info">
+            <span>CELAYA, MX</span>
+            <i></i>
+            <span>2026</span>
+          </div>
+
+        </div>
+
+        <div class="hero-art reveal">
+
+          <div class="art-card">
+
+            <div class="art-header">
+              <span>PROFILE / 01</span>
+              <span>ONLINE</span>
+            </div>
+
+            <div class="art-center">
+
+              <div class="art-circle circle-one"></div>
+              <div class="art-circle circle-two"></div>
+
+              <div class="art-initials">
+                <span>A</span>
+                <span>R</span>
+              </div>
+
+            </div>
+
+            <div class="art-footer">
+              <span>WEB</span>
+              <span>SYSTEMS</span>
+              <span>MEDIA</span>
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+      <div class="scroll-indicator">
+        <span>SCROLL</span>
+        <i></i>
+      </div>
+
+    </section>
+
+    <section
+      class="section"
+      id="sobre-mi"
+    >
+
+      <div class="section-inner">
+
+        <div class="section-top reveal">
+          <span class="section-number">02</span>
+          <span class="section-label">Perfil</span>
+        </div>
+
+        <div class="section-title reveal">
+          <h2>
+            Construyo cosas
+            <em>que funcionan.</em>
+          </h2>
+        </div>
+
+        <div class="about-grid">
+
+          <div class="about-content reveal">
+
+            <p class="about-lead">
+              Desarrollo soluciones digitales combinando
+              <strong>ingeniería, diseño y comunicación.</strong>
+            </p>
+
+            <p>
+              Mi enfoque está en crear proyectos funcionales,
+              mantenibles y visualmente interesantes, desde sistemas
+              web hasta plataformas de contenido.
+            </p>
+
+            <div class="about-stats">
+
+              <div>
+                <strong>WEB</strong>
+                <span>Development</span>
+              </div>
+
+              <div>
+                <strong>SYS</strong>
+                <span>Architecture</span>
+              </div>
+
+              <div>
+                <strong>MEDIA</strong>
+                <span>Communication</span>
+              </div>
+
+            </div>
+
+          </div>
+
+          <article class="profile-card reveal">
+
+            <span class="profile-label">
+              PROFILE / 01
+            </span>
+
+            <div class="profile-avatar">
+              AR
+            </div>
+
+            <div class="profile-content">
+
+              <span>
+                Coordinador de Difusión
+              </span>
+
+              <h3>
+                Linces por el Servicio
+              </h3>
+
+              <p>
+                Instituto Tecnológico de Celaya
+              </p>
+
+            </div>
+
+            <div class="profile-tags">
+              <span>Creación de Contenido</span>
+              <span>Comunicación y Difusión</span>
+            </div>
+
+            <i class="fa-solid fa-arrow-up-right-from-square profile-icon"></i>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <section
+      class="section"
+      id="proyectos"
+    >
+
+      <div class="section-inner">
+
+        <div class="section-top reveal">
+          <span class="section-number">03</span>
+          <span class="section-label">Proyectos</span>
+        </div>
+
+        <div class="section-title reveal">
+          <h2>
+            Código con
+            <em>un propósito.</em>
+          </h2>
+        </div>
+
+        <div class="projects-grid">
+
+          <article class="project-card reveal">
+
+            <div class="project-number">
+              01
+            </div>
+
+            <div class="project-main">
+
+              <span class="project-category">
+                WEB APPLICATION
+              </span>
+
+              <h3>
+                Gran Chaique
+              </h3>
+
+              <p>
+                LMS personalizado para un curso de oratoria,
+                construido con Node.js nativo y SQLite.
+              </p>
+
+              <div class="project-stack">
+                <span>Node.js</span>
+                <span>SQLite</span>
+                <span>JS Modules</span>
+                <span>Render</span>
+              </div>
+
+              <a
+                href="https://github.com/aramirezcanelo/granshaique"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="project-link"
+              >
+                Explorar proyecto
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+
+            </div>
+
+            <div class="project-decoration">
+              <i class="fa-solid fa-code"></i>
+              <span>01</span>
+            </div>
+
+          </article>
+
+          <article class="project-card reveal">
+
+            <div class="project-number">
+              02
+            </div>
+
+            <div class="project-main">
+
+              <span class="project-category">
+                CONTENT PLATFORM
+              </span>
+
+              <h3>
+                LPS Blog
+              </h3>
+
+              <p>
+                Plataforma editorial para Linces por el Servicio,
+                enfocada en contenido y accesibilidad.
+              </p>
+
+              <div class="project-stack">
+                <span>Astro</span>
+                <span>TypeScript</span>
+                <span>CSS</span>
+                <span>Accessibility</span>
+              </div>
+
+              <a
+                href="https://github.com/aramirezcanelo/lpsblog"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="project-link"
+              >
+                Ver código
+                <i class="fa-brands fa-github"></i>
+              </a>
+
+            </div>
+
+            <div class="project-decoration">
+              <i class="fa-solid fa-pen-nib"></i>
+              <span>02</span>
+            </div>
+
+          </article>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <section
+      class="section"
+      id="habilidades"
+    >
+
+      <div class="section-inner">
+
+        <div class="section-top reveal">
+          <span class="section-number">04</span>
+          <span class="section-label">Stack</span>
+        </div>
+
+        <div class="section-title reveal">
+          <h2>
+            Lo que utilizo para
+            <em>construir.</em>
+          </h2>
+        </div>
+
+        <div class="skills-layout">
+
+          <div class="skill-group reveal">
+
+            <div class="skill-heading">
+              <span>01</span>
+              <h3>Lenguajes</h3>
+            </div>
+
+            <div class="skills">
+
+              <div class="skill">
+                <i class="fa-brands fa-html5"></i>
+                <span>HTML5</span>
+              </div>
+
+              <div class="skill">
+                <i class="fa-brands fa-css3-alt"></i>
+                <span>CSS3</span>
+              </div>
+
+              <div class="skill">
+                <i class="fa-brands fa-js"></i>
+                <span>JavaScript</span>
+              </div>
+
+              <div class="skill">
+                <i class="fa-solid fa-code"></i>
+                <span>TypeScript</span>
+              </div>
+
+              <div class="skill">
+                <i class="fa-brands fa-python"></i>
+                <span>Python</span>
+              </div>
+
+              <div class="skill">
+                <i class="fa-brands fa-java"></i>
+                <span>Java</span>
+              </div>
+
+              <div class="skill">
+                <i class="fa-solid fa-database"></i>
+                <span>SQL</span>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="skill-group reveal">
+
+            <div class="skill-heading">
+              <span>02</span>
+              <h3>Frameworks</h3>
+            </div>
+
+            <div class="skills">
+
+              <div class="skill">
+                <i class="fa-brands fa-vuejs"></i>
+                <span>Vue</span>
+              </div>
+
+              <div class="skill">
+                <i class="fa-brands fa-react"></i>
+                <span>React</span>
+              </div>
+
+              <div class="skill">
+                <i class="fa-solid fa-rocket"></i>
+                <span>Astro</span>
+              </div>
+
+              <div class="skill">
+                <i class="fa-solid fa-server"></i>
+                <span>Express</span>
+              </div>
+
+            </div>
+
+          </div>
+
+          <div class="skill-group reveal">
+
+            <div class="skill-heading">
+              <span>03</span>
+              <h3>Herramientas y librerías</h3>
+            </div>
+
+            <div class="skills">
+
+              <div class="skill">
+                <i class="fa-brands fa-node-js"></i>
+                <span>Node.js</span>
+              </div>
+
+              <div class="skill">
+                <i class="fa-brands fa-git-alt"></i>
+                <span>Git</span>
+              </div>
+
+              <div class="skill">
+                <i class="fa-brands fa-github"></i>
+                <span>GitHub</span>
+              </div>
+
+              <div class="skill">
+                <i class="fa-brands fa-docker"></i>
+                <span>Docker</span>
+              </div>
+
+              <div class="skill">
+                <i class="fa-brands fa-npm"></i>
+                <span>npm</span>
+              </div>
+
+              <div class="skill">
+                <i class="fa-solid fa-wind"></i>
+                <span>Tailwind CSS</span>
+              </div>
+
+              <div class="skill">
+                <i class="fa-solid fa-bolt"></i>
+                <span>Vite</span>
+              </div>
+
+              <div class="skill">
+                <i class="fa-solid fa-icons"></i>
+                <span>Font Awesome</span>
+              </div>
+
+              <div class="skill">
+                <i class="fa-solid fa-feather"></i>
+                <span>Pico CSS</span>
+              </div>
+
+              <div class="skill">
+                <i class="fa-brands fa-linux"></i>
+                <span>Debian</span>
+              </div>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+    <section
+      class="section"
+      id="contacto"
+    >
+
+      <div class="section-inner">
+
+        <div class="section-top reveal">
+          <span class="section-number">05</span>
+          <span class="section-label">Contacto</span>
+        </div>
+
+        <div class="contact-grid">
+
+          <div class="section-title reveal">
+            <h2>
+              Hablemos de
+              <em>algo interesante.</em>
+            </h2>
+          </div>
+
+          <div class="contact-content reveal">
+
+            <p>
+              Actualmente no estoy aceptando nuevos proyectos,
+              pero puedes encontrarme en los siguientes canales.
+            </p>
+
+            <div class="contact-links">
+
+              <a
+                href="mailto:aramirezcanelo@gmail.com"
+                class="contact-link"
+              >
+                <span>
+                  <i class="fa-solid fa-envelope"></i>
+                  Email
+                </span>
+
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+
+              <a
+                href="https://github.com/aramirezcanelo"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="contact-link"
+              >
+                <span>
+                  <i class="fa-brands fa-github"></i>
+                  GitHub
+                </span>
+
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+
+              <a
+                href="https://linkedin.com/in/aramirezcanelo"
+                target="_blank"
+                rel="noopener noreferrer"
+                class="contact-link"
+              >
+                <span>
+                  <i class="fa-brands fa-linkedin"></i>
+                  LinkedIn
+                </span>
+
+                <i class="fa-solid fa-arrow-up-right-from-square"></i>
+              </a>
+
+            </div>
+
+          </div>
+
+        </div>
+
+      </div>
+
+    </section>
+
+  </main>
+
+  <footer class="footer reveal">
+
+    <span>
+      © <span id="year">2026</span> Alejandro Ramírez
+    </span>
+
+    <strong>
+      AR<span>.</span>
+    </strong>
+
+    <span>
+      BUILT WITH INTENT
+    </span>
+
+  </footer>
+
+  <script src="app.js"></script>
+
+</body>
+</html>
